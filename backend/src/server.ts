@@ -6,7 +6,7 @@ import authRouter from '@/routes/auth.routes';
 import scoreRouter from '@/routes/score.routes';
 
 
-const app = express()
+export const app = express()
 
 app.use(cors())
 app.use(express.json());

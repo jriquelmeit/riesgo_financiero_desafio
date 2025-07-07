@@ -51,11 +51,14 @@ yarn run dev
 ```
 
 
-### curls
+### Test
+- Login del usuario admin
+- score del rut 58961604 con jwt del usuario admin
 
 ```bash
 
-
+cd riesgo_financiero_desafio/backend
+yarn run test
 
 ```
 
