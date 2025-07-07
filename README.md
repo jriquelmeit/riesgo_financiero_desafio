@@ -2,7 +2,7 @@
 
 Proyecto basado en **node.js** con **Typescript** 
 
-## Requistos 
+## Requisitos 
 
 * Npm 
 * Yarn
