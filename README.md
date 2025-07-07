@@ -57,7 +57,6 @@ yarn run dev
 
 ```bash
 
-cd riesgo_financiero_desafio/backend
 yarn run test
 
 ```
