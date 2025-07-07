@@ -61,7 +61,7 @@ yarn run test
 
 ```
 
-### CURS
+### CURLS
 
 ```bash
 
