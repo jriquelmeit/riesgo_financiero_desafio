@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "rut": "138023451",
+    "username": "jose@demo.cl",
+    "email": "jose@demo.cl",
+    "password": "6bd19b54475cfa4652a5ec561b83aa344b56ed7e7ff97a8bbefa1f7252f89f60",
+    "role": "user"
+  },
+  {
+    "id": 2,
+    "rut": "58961604",
+    "username": "pedro@demo.cl",
+    "email": "pedro@demo.cl",
+    "password": "6bd19b54475cfa4652a5ec561b83aa344b56ed7e7ff97a8bbefa1f7252f89f60",
+    "role": "admin"
+  }
+]
