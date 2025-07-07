@@ -16,6 +16,7 @@ describe('Riesgo Financiero', () => {
             });
         expect(response.status).toBe(200);
         expect(response.body).not.toBeNull();
+        expect(response.body).toHaveProperty("accessToken")
     });
 
 
