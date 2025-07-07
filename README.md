@@ -27,7 +27,7 @@ cp env.template .env
 
 ```bash
 
-#Levantar servidor local 
+#Configurar servidor local 
 yarn run dev
 
 ```
