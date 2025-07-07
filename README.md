@@ -62,6 +62,27 @@ yarn run test
 
 ```
 
+### CURS
+
+```bash
+
+## Login
+curl -X "POST" "http://localhost:3000/login" \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -d $'{
+  "email": "pedro@demo.cl",
+  "password": "1234"
+}'
+
+
+## score
+curl "http://localhost:3000/score/138023455" \
+     -H 'Authorization: Bearer <TOKEN_JWT>' \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -d $'{}'
+
+```
+
 ## Frondend
 
 Pendiente :-( 
