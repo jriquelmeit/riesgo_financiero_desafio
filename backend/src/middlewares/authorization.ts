@@ -12,10 +12,10 @@ const authorization = (req: Request, res: Response, next: NextFunction) => {
         return
     }
 
-    if(user.role !== "user" || user.rut !== rut){
+    if(user.role === "user" && user.rut !== rut){
         res.status(401).send("Not authorized");
     }
-
+    
     return next();
 }
 

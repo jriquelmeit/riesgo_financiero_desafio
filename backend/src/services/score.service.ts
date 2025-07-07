@@ -1,4 +1,4 @@
 export const calculate = async (rut: string): Promise<number> => {
 
-    return +rut;
+    return (+rut % 100) + 1;
 }
