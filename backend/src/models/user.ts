@@ -8,7 +8,7 @@ export interface IUser {
 }
 
 export interface JwtPayload {
-    id: number
+    sub: string
     role: 'admin' | 'user';
     rut?: string;
 }

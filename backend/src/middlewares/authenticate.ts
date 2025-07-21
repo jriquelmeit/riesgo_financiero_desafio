@@ -11,8 +11,7 @@ const authenticate = (req: Request, res: Response, next: NextFunction) => {
     }
     const token = authHeader?.split(' ')[1] as string;
     try{
-        const tokenPayload = verifyAccessToken(token) as { user: JwtPayload}
-        req.user = tokenPayload.user
+        req.user = verifyAccessToken(token) as JwtPayload
 
     }catch (e){
         if (e instanceof TokenExpiredError) {

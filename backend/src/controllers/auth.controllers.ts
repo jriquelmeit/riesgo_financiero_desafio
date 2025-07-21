@@ -5,6 +5,7 @@ import {encryptPassword} from "@/libs/authentication";
 
 export const login = async (req: Request, res: Response): Promise<void> => {
 
+    console.log(req.body)
     const {email, password} = req.body
     if (!email || !password) {
         res.status(401).json({ error: 'Credenciales inválidas' });

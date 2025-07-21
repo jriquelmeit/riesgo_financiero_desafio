@@ -31,5 +31,4 @@ describe('Riesgo Financiero', () => {
         expect(response.status).toBe(200);
         expect(response.body).toHaveProperty("score")
     });
-
 });

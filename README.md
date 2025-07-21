@@ -82,7 +82,7 @@ curl "http://localhost:3000/score/138023455" \
 
 ```
 
-## Frondend
+## Frontend
 
 Pendiente :-( 
 

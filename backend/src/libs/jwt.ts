@@ -3,9 +3,9 @@ import jwt from 'jsonwebtoken';
 import config from "@/config";
 
 export const generateAccessToken = (sub: number, role:string, rut?: string) => {
-    return jwt.sign({user: {sub, role, rut}}, config.JWT_ACCESS_SECRET, {
+    return jwt.sign({role, rut}, config.JWT_ACCESS_SECRET, {
         expiresIn: config.ACCESS_TOKEN_EXPIRY,
-        subject: 'accessToken',
+        subject: `${sub}`,
     })
 }
 
